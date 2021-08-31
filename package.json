@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy:contract": "npx hardhat run scripts/deploy.js --network localhost"
   },
   "dependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.2",
@@ -14,6 +15,7 @@
     "@openzeppelin/contracts": "^4.2.0",
     "axios": "^0.21.1",
     "chai": "^4.3.4",
+    "daisyui": "^1.14.0",
     "dotenv": "^10.0.0",
     "ethereum-waffle": "^3.4.0",
     "ethers": "^5.4.1",
